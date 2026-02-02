@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE98971-DB57-CCE3-EB35-7D60258BAC4D}|Assembly-CSharp.csproj|c:\\users\\konig\u0027s tracker\\downloads\\capstone\\assets\\vr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE98971-DB57-CCE3-EB35-7D60258BAC4D}|Assembly-CSharp.csproj|solutionrelative:assets\\vr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE98971-DB57-CCE3-EB35-7D60258BAC4D}|Assembly-CSharp.csproj|C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\assets\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE98971-DB57-CCE3-EB35-7D60258BAC4D}|Assembly-CSharp.csproj|solutionrelative:assets\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE98971-DB57-CCE3-EB35-7D60258BAC4D}|Assembly-CSharp.csproj|C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\assets\\collide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE98971-DB57-CCE3-EB35-7D60258BAC4D}|Assembly-CSharp.csproj|solutionrelative:assets\\collide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\Library\\PackageCache\\com.unity.visualscripting@0920df93f957\\Runtime\\VisualScripting.Core\\Reflection\\Member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualscripting@0920df93f957\\Runtime\\VisualScripting.Core\\Reflection\\Member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VR.cs",
+              "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\Assets\\VR.cs",
+              "RelativeDocumentMoniker": "Assets\\VR.cs",
+              "ToolTip": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\Assets\\VR.cs",
+              "RelativeToolTip": "Assets\\VR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:27:39.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\Library\\PackageCache\\com.unity.visualscripting@0920df93f957\\Runtime\\VisualScripting.Core\\Reflection\\Member.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualscripting@0920df93f957\\Runtime\\VisualScripting.Core\\Reflection\\Member.cs",
+              "ToolTip": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\Library\\PackageCache\\com.unity.visualscripting@0920df93f957\\Runtime\\VisualScripting.Core\\Reflection\\Member.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.visualscripting@0920df93f957\\Runtime\\VisualScripting.Core\\Reflection\\Member.cs",
+              "ViewState": "AgIAABMDAAAAAAAAAAApwCEDAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T20:50:06.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "collide.cs",
+              "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\Assets\\collide.cs",
+              "RelativeDocumentMoniker": "Assets\\collide.cs",
+              "ToolTip": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\Assets\\collide.cs",
+              "RelativeToolTip": "Assets\\collide.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T20:47:13.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "camera.cs",
+              "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\Assets\\camera.cs",
+              "RelativeDocumentMoniker": "Assets\\camera.cs",
+              "ToolTip": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Capstone\\Assets\\camera.cs",
+              "RelativeToolTip": "Assets\\camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:21:27.017Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
