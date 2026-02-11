@@ -250,9 +250,6 @@
     <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\YarnSpinner.Unity.Editor.asmdef">
       <Link>Editor\YarnSpinner.Unity.Editor.asmdef</Link>
     </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Templates\DialoguePresenterTemplate.txt">
-      <Link>Editor\Templates\DialoguePresenterTemplate.txt</Link>
-    </None>
     <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Threading.Tasks.Extensions.dll">
       <Link>Editor\Analysis\DLLs\System.Threading.Tasks.Extensions.dll</Link>
     </None>
@@ -264,9 +261,6 @@
     </None>
     <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\USS\Localization.uxml">
       <Link>Editor\Editors\USS\Localization.uxml</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Templates\YarnScriptTemplate.txt">
-      <Link>Editor\Templates\YarnScriptTemplate.txt</Link>
     </None>
   </ItemGroup>
   <ItemGroup>
