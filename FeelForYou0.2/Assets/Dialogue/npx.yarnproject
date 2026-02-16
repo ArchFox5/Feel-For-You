@@ -1,6 +1,7 @@
-﻿{
+{
   "projectFileVersion": 3,
   "sourceFiles": [
+    "beer.yarn",
     "**/*.yarn"
   ],
   "excludeFiles": [

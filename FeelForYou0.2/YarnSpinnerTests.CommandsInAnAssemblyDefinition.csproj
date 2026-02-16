@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3071474B-2C7E-31E8-6102-6A675E8E901A}</ProjectGuid>
+    <ProjectGuid>{60D1810C-92A1-5E12-49F0-346DD500F8F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>YarnSpinnerTests.CommandsInAnAssemblyDefinition</AssemblyName>
@@ -1135,7 +1135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="YarnSpinner.Unity.csproj">
-      <Project>{9313366F-516B-03B9-ED2A-4B2648D3F686}</Project>
+      <Project>{1144A633-351A-D3C1-C48D-5B78898A54E9}</Project>
       <Name>YarnSpinner.Unity</Name>
     </ProjectReference>
   </ItemGroup>

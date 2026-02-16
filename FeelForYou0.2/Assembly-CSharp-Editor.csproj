@@ -10,10 +10,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{154771F3-3B9D-1CFF-1EB3-490FD37D7C2E}</ProjectGuid>
+    <ProjectGuid>{3401ED2E-1CC8-9D64-8000-E6B6FA4256C1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>YarnSpinner.Unity.Editor</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -23,7 +23,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_6000_0_22;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;USE_INPUTSYSTEM;USE_TMP;UNITY_2022_3_33_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
+    <DefineConstants>UNITY_6000_0_22;UNITY_6000_0;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_EDITOR_ONLY_COMPILATION</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
@@ -62,206 +62,7 @@
     <Analyzer Include="C:\Program Files\Unity 6000.0.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Importers\YarnProjectUnityLocalizationUpdater.cs">
-      <Link>Editor\Importers\YarnProjectUnityLocalizationUpdater.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\DialogueRunnerEditor.cs">
-      <Link>Editor\Editors\DialogueRunnerEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\YarnPackageImporter.cs">
-      <Link>Editor\Utility\YarnPackageImporter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\PropertyDrawers\DerivedFunctionsPropertyDrawer.cs">
-      <Link>Editor\Editors\PropertyDrawers\DerivedFunctionsPropertyDrawer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\YarnSpinnerProjectSettings.cs">
-      <Link>Editor\Editors\YarnSpinnerProjectSettings.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\PropertyDrawers\BasicMarkerPropertyDrawer.cs">
-      <Link>Editor\Editors\PropertyDrawers\BasicMarkerPropertyDrawer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\YarnSpinnerEditorWindow.cs">
-      <Link>Editor\Editors\YarnSpinnerEditorWindow.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\YarnProjectUtility.cs">
-      <Link>Editor\Utility\YarnProjectUtility.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\EnumerableExtensions.cs">
-      <Link>Editor\Analysis\EnumerableExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\AddAssetsToAssetTableCollectionWizard.cs">
-      <Link>Editor\Editors\AddAssetsToAssetTableCollectionWizard.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Importers\YarnProjectAssetReimport.cs">
-      <Link>Editor\Importers\YarnProjectAssetReimport.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\ActionSourceCodeGenerator.cs">
-      <Link>Editor\Analysis\ActionSourceCodeGenerator.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\YarnTextMeshProFallbackEditor.cs">
-      <Link>Editor\Editors\YarnTextMeshProFallbackEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\YarnProjectImporterEditor.cs">
-      <Link>Editor\Editors\YarnProjectImporterEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\YarnPackageImporter.SamplesInstallApproach.cs">
-      <Link>Editor\Utility\YarnPackageImporter.SamplesInstallApproach.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\LocalizationEditor.cs">
-      <Link>Editor\Editors\LocalizationEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\Analyser.cs">
-      <Link>Editor\Analysis\Analyser.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Importers\YarnImporter.cs">
-      <Link>Editor\Importers\YarnImporter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\PropertyDrawers\DialogueReferenceDrawer.cs">
-      <Link>Editor\Editors\PropertyDrawers\DialogueReferenceDrawer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\PropertyDrawers\DeclarationPropertyDrawer.cs">
-      <Link>Editor\Editors\PropertyDrawers\DeclarationPropertyDrawer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\Diagnostics.cs">
-      <Link>Editor\Analysis\Diagnostics.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\InterfaceContainerDrawer.cs">
-      <Link>Editor\Utility\InterfaceContainerDrawer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\MiniJSON.cs">
-      <Link>Editor\Utility\MiniJSON.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\YarnImporterEditor.cs">
-      <Link>Editor\Editors\YarnImporterEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\YarnProjectEditor.cs">
-      <Link>Editor\Editors\YarnProjectEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\AnalyserException.cs">
-      <Link>Editor\Analysis\AnalyserException.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\Compare.cs">
-      <Link>Editor\Utility\Compare.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Importers\ProjectImportData.cs">
-      <Link>Editor\Importers\ProjectImportData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\Action.cs">
-      <Link>Editor\Analysis\Action.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\AssemblyInfo.cs">
-      <Link>Editor\AssemblyInfo.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\CreateDialogueRunnerMenuItem.cs">
-      <Link>Editor\Utility\CreateDialogueRunnerMenuItem.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\SymbolExtensions.cs">
-      <Link>Editor\Analysis\SymbolExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\YarnSpinnerProjectSettingsProvider.cs">
-      <Link>Editor\Editors\YarnSpinnerProjectSettingsProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\UPMSamplesInstaller.cs">
-      <Link>Editor\Utility\UPMSamplesInstaller.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\InMemoryVariableStorageEditor.cs">
-      <Link>Editor\Editors\InMemoryVariableStorageEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\AssetStoreSamplesInstaller.cs">
-      <Link>Editor\Utility\AssetStoreSamplesInstaller.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\ILogger.cs">
-      <Link>Editor\Analysis\ILogger.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\DependencyInstallerUtilities.cs">
-      <Link>Editor\Utility\DependencyInstallerUtilities.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\LocalizationEntryElement.cs">
-      <Link>Editor\Editors\LocalizationEntryElement.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\PropertyDrawers\YarnNodeAttributeDrawer.cs">
-      <Link>Editor\Editors\PropertyDrawers\YarnNodeAttributeDrawer.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Importers\YarnProjectImporter.cs">
-      <Link>Editor\Importers\YarnProjectImporter.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\YarnEditorUtility.cs">
-      <Link>Editor\Utility\YarnEditorUtility.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\Commands\CommandsWindow.cs">
-      <Link>Editor\Editors\Commands\CommandsWindow.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\ManualSamplesInstaller.cs">
-      <Link>Editor\Utility\ManualSamplesInstaller.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\LanguagePopup.cs">
-      <Link>Editor\Editors\LanguagePopup.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\SourceFileEntryElement.cs">
-      <Link>Editor\Editors\SourceFileEntryElement.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\LanguagePropertyAttributeEditor.cs">
-      <Link>Editor\Editors\LanguagePropertyAttributeEditor.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Importers\FunctionInfo.cs">
-      <Link>Editor\Importers\FunctionInfo.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Utility\ItchSamplesInstaller.cs">
-      <Link>Editor\Utility\ItchSamplesInstaller.cs</Link>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\Commands\CommandElement.uxml">
-      <Link>Editor\Editors\Commands\CommandElement.uxml</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.dll">
-      <Link>Editor\Analysis\DLLs\Microsoft.CodeAnalysis.dll</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\YarnSpinnerEditorWindow.uxml">
-      <Link>Editor\Editors\YarnSpinnerEditorWindow.uxml</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Memory.dll">
-      <Link>Editor\Analysis\DLLs\System.Memory.dll</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Reflection.Metadata.dll">
-      <Link>Editor\Analysis\DLLs\System.Reflection.Metadata.dll</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\USS\SourceFile.uxml">
-      <Link>Editor\Editors\USS\SourceFile.uxml</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Collections.Immutable.dll">
-      <Link>Editor\Analysis\DLLs\System.Collections.Immutable.dll</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\YarnSpinnerEditorWindow.uss">
-      <Link>Editor\Editors\YarnSpinnerEditorWindow.uss</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Buffers.dll">
-      <Link>Editor\Analysis\DLLs\System.Buffers.dll</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\Commands\CommandsWindow.uxml">
-      <Link>Editor\Editors\Commands\CommandsWindow.uxml</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Runtime.CompilerServices.Unsafe.dll">
-      <Link>Editor\Analysis\DLLs\System.Runtime.CompilerServices.Unsafe.dll</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\Commands\CommandsWindow.uss">
-      <Link>Editor\Editors\Commands\CommandsWindow.uss</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\YarnSpinner.Unity.Editor.asmdef">
-      <Link>Editor\YarnSpinner.Unity.Editor.asmdef</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Threading.Tasks.Extensions.dll">
-      <Link>Editor\Analysis\DLLs\System.Threading.Tasks.Extensions.dll</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\USS\YarnSpinner.uss">
-      <Link>Editor\Editors\USS\YarnSpinner.uss</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.CSharp.dll">
-      <Link>Editor\Analysis\DLLs\Microsoft.CodeAnalysis.CSharp.dll</Link>
-    </None>
-    <None Include="C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Editors\USS\Localization.uxml">
-      <Link>Editor\Editors\USS\Localization.uxml</Link>
-    </None>
+    <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -744,72 +545,96 @@
       <HintPath>C:\Program Files\Unity 6000.0.22f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.Google.Protobuf">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.Google.Protobuf.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="YarnSpinner">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\YarnSpinner.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="YarnSpinner.Compiler">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\YarnSpinner.Compiler.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.Antlr4.Runtime.Standard">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.Antlr4.Runtime.Standard.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.CsvHelper">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.CsvHelper.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.System.Buffers">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.System.Buffers.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.System.Memory">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.System.Memory.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.System.Numerics.Vectors">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.System.Numerics.Vectors.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.System.Reflection.TypeExtensions">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.System.Reflection.TypeExtensions.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Yarn.System.Runtime.CompilerServices.Unsafe">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@0920df93f957\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.CodeAnalysis">
       <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Microsoft.CodeAnalysis.CSharp">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+    <Reference Include="Yarn.System.Text.Encodings.Web">
+      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.System.Text.Encodings.Web.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="System.Collections.Immutable">
-      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Collections.Immutable.dll</HintPath>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@eba9b2ae55c0\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="YarnSpinner.Compiler">
+      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\YarnSpinner.Compiler.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@60ef35ffd3cd\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Reflection.Metadata">
       <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Reflection.Metadata.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Collections.Immutable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="YarnSpinner">
+      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\YarnSpinner.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Lib\Editor\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@0920df93f957\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@e566cd3e7623\Lib\Editor\unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@0920df93f957\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@0920df93f957\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.System.Threading.Tasks.Extensions">
+      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Yarn.Microsoft.Extensions.FileSystemGlobbing">
+      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.Microsoft.Extensions.FileSystemGlobbing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Yarn.System.Text.Json">
       <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Runtime\DLLs\Yarn.System.Text.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp">
+      <HintPath>C:\Users\Konig&apos;s Tracker\Downloads\YarnSpinner-Unity-main\YarnSpinner-Unity-main\Editor\Analysis\DLLs\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
@@ -1312,22 +1137,6 @@
       <HintPath>C:\Program Files\Unity 6000.0.22f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.TestRunner">
       <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
       <Private>False</Private>
@@ -1336,10 +1145,302 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{89E47B56-3A05-22CF-AA7D-7C7F0011F09B}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="YarnSpinnerTests.CommandsInAnAssemblyDefinition.csproj">
+      <Project>{60D1810C-92A1-5E12-49F0-346DD500F8F7}</Project>
+      <Name>YarnSpinnerTests.CommandsInAnAssemblyDefinition</Name>
+    </ProjectReference>
+    <ProjectReference Include="YarnSpinner.Unity.Editor.csproj">
+      <Project>{E77E51FF-398D-EFAB-BB22-E5C2F88F2102}</Project>
+      <Name>YarnSpinner.Unity.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="YarnSpinner.Unity.csproj">
-      <Project>{9313366F-516B-03B9-ED2A-4B2648D3F686}</Project>
+      <Project>{1144A633-351A-D3C1-C48D-5B78898A54E9}</Project>
       <Name>YarnSpinner.Unity</Name>
     </ProjectReference>
   </ItemGroup>
