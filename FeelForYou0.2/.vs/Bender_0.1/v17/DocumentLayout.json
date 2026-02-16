@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Bender-main\\Bender-main\\Bender_0.1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89E47B56-3A05-22CF-AA7D-7C7F0011F09B}|Assembly-CSharp.csproj|c:\\users\\konig\u0027s tracker\\downloads\\bender-main\\bender-main\\bender_0.1\\assets\\gif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89E47B56-3A05-22CF-AA7D-7C7F0011F09B}|Assembly-CSharp.csproj|solutionrelative:assets\\gif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89E47B56-3A05-22CF-AA7D-7C7F0011F09B}|Assembly-CSharp.csproj|c:\\users\\konig\u0027s tracker\\downloads\\bender-main\\bender-main\\bender_0.1\\assets\\vr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89E47B56-3A05-22CF-AA7D-7C7F0011F09B}|Assembly-CSharp.csproj|solutionrelative:assets\\vr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Konig\u0027s Tracker\\Downloads\\Bender-main\\Bender-main\\Bender_0.1\\Assets\\gif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\gif.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1144A633-351A-D3C1-C48D-5B78898A54E9}|YarnSpinner.Unity.csproj|c:\\users\\konig\u0027s tracker\\downloads\\yarnspinner-unity-main\\yarnspinner-unity-main\\runtime\\views\\optionspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -46,19 +50,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VR.cs",
+              "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Bender-main\\Bender-main\\Bender_0.1\\Assets\\VR.cs",
+              "RelativeDocumentMoniker": "Assets\\VR.cs",
+              "ToolTip": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Bender-main\\Bender-main\\Bender_0.1\\Assets\\VR.cs",
+              "RelativeToolTip": "Assets\\VR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T00:12:32.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "gif.cs",
               "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Bender-main\\Bender-main\\Bender_0.1\\Assets\\gif.cs",
               "RelativeDocumentMoniker": "Assets\\gif.cs",
               "ToolTip": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Bender-main\\Bender-main\\Bender_0.1\\Assets\\gif.cs",
               "RelativeToolTip": "Assets\\gif.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T21:31:39.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T21:31:39.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EventSystem.cs",
               "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Bender-main\\Bender-main\\Bender_0.1\\Library\\PackageCache\\com.unity.ugui@b0e0b1c82856\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@b0e0b1c82856\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
@@ -66,12 +81,11 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@b0e0b1c82856\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
               "ViewState": "AgIAAP8BAAAAAAAAAAAjwB4CAACrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T19:52:56.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T19:52:56.519Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "OptionsPresenter.cs",
               "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\Views\\OptionsPresenter.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\Views\\OptionsPresenter.cs",
@@ -79,12 +93,11 @@
               "RelativeToolTip": "..\\..\\..\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\Views\\OptionsPresenter.cs",
               "ViewState": "AgIAAIIBAAAAAAAAAAAAwKwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T18:56:34.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T18:56:34.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OptionItem.cs",
               "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\Views\\OptionItem.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\Views\\OptionItem.cs",
@@ -96,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "collide.cs",
               "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Bender-main\\Bender-main\\Bender_0.1\\Assets\\collide.cs",
               "RelativeDocumentMoniker": "Assets\\collide.cs",
@@ -108,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DialogueRunner.cs",
               "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\DialogueRunner\\DialogueRunner.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\DialogueRunner\\DialogueRunner.cs",
@@ -120,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Actions.cs",
               "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\Commands\\Actions.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\Commands\\Actions.cs",
@@ -132,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DialogueOption.cs",
               "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\DialogueRunner\\DialogueOption.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\YarnSpinner-Unity-main\\YarnSpinner-Unity-main\\Runtime\\DialogueRunner\\DialogueOption.cs",
@@ -144,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DialogueTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Konig\u0027s Tracker\\Downloads\\Bender-main\\Bender-main\\Bender_0.1\\Assets\\Dialogue\\DialogueTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Dialogue\\DialogueTrigger.cs",
